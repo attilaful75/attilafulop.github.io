@@ -1,0 +1,66 @@
+.container{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .head{
+      position:relative;
+      font-family: 'Rozha One', serif;
+      width:600px;
+      height:200px;
+      display:block;
+      background-image: url(http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png);
+      background-size: 600px 200px;
+      
+    }
+    
+    .felirat{
+      position:absolute;
+      width:80%;
+      left:20%;
+      top:70%;
+      line-height:0.8;
+    }
+    
+    .anaki{
+      font-size:2em;
+      margin:0px;
+    }
+    .myname{
+      font-size:1em;
+      margin: 0px;
+    }
+    
+    .content{
+      margin-left:20%;
+      margin-right:20%;
+      margin-top:20px;
+      font-family: 'Open Sans', sans-serif;
+      font-size:1em;
+    }
+    
+    .blockquote::before{
+      position:absolute;
+      content:"\201C";
+      top:-10px;
+      left:0px;
+      font-size:2em;
+      
+    }
+    
+    .blockquote{
+      position:relative;
+      margin-top:20px;
+      display:block;
+      width:60%;
+      height:auto;
+      background-color:#252525;
+      margin-left:20%;
+      margin-right:20%;
+      color:white;
+      text-align: center;
+      font-family: 'Rozha One', serif;
+      font-size:1.3em;
+      padding: 20px;
+    }
